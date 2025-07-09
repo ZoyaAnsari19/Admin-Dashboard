@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="dashboard">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <h2 class="logo">Dashboard</h2>
+          <nav>
+            <a href="#"><i class="fas fa-home"></i> Home</a>
+            <a href="#"><i class="fas fa-user"></i> Users</a>
+            <a href="#"><i class="fas fa-tasks"></i> Tasks</a>
+            <a href="#"><i class="fas fa-cog"></i> Settings</a>
+          </nav>
+        </aside>
+    
+        <!-- Main Content -->
+        <div class="main">
+          <!-- Header -->
+          <header class="header">
+            <input type="text" placeholder="Search..." />
+            <div class="theme-toggle">
+              <i class="fas fa-moon" id="theme-btn"></i>
+            </div>
+            <div class="profile">
+              <img src="https://i.pravatar.cc/40" alt="User" />
+            </div>
+          </header>
+    
+          <!-- Dashboard Cards -->
+          <section class="cards">
+            <div class="card">
+              <h3>Total Users</h3>
+              <p>1,234</p>
+            </div>
+            <div class="card">
+              <h3>Active Sessions</h3>
+              <p>245</p>
+            </div>
+            <div class="card">
+              <h3>Revenue</h3>
+              <p>$12,345</p>
+            </div>
+            <div class="card">
+              <h3>Pending Tasks</h3>
+              <p>32</p>
+            </div>
+          </section>
+    
+          <!-- Recent Activity Table -->
+          <section class="table-section">
+            <h2>Recent Activity</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>User</th>
+                  <th>Activity</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>2025-07-07</td>
+                  <td>Amit Sharma</td>
+                  <td>Logged In</td>
+                </tr>
+                <tr>
+                  <td>2025-07-07</td>
+                  <td>Neha Singh</td>
+                  <td>Updated Profile</td>
+                </tr>
+                <tr>
+                  <td>2025-07-06</td>
+                  <td>Faizan Ansari</td>
+                  <td>Completed Task</td>
+                </tr>
+                <tr>
+                  <td>2025-07-06</td>
+                  <td>Anushka Sharma</td>
+                  <td>Logged Out</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>

@@ -39,10 +39,10 @@ You can deploy the site using:
 ## Screenshots
 
 ### Desktop View  
-![Desktop](./Screenshots/dashboard-desktop.png)
+![Desktop](./screenshots/dashboard-desktop.png)
 
 ### Mobile View  
-![Mobile](./Screenshots/dashboard-mobile.png)
+![Mobile](./screenshots/dashboard-mobile.png)
 
 ## (Optional) Live Demo
 [Click here to view the Admin Dashboard](https://zoya-admin-dashboard.netlify.app)

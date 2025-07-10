@@ -52,4 +52,4 @@ You can deploy the site using:
 
 **Zoya Ansari**  
 Frontend Developer Intern  
-[LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+[LinkedIn Profile](https://www.linkedin.com/in/zoya-ansari-160a96291)
